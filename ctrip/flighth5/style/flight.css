@@ -82,7 +82,7 @@
 .ftxt{color:#797979;font-size:.9em;padding-bottom:15px;}
 .fpay{width:100%;height:45px;line-height:45px;}
 .fpay em{color:#fff;}
-.fpay em.fs{font-size:1.5em;padding-left:3px;}
+.fpay em.fs{font-size:18px;padding-left:3px;font-weight:bold;}
 .fpay .money{background:#ff942b;text-indent:20px;color:#fff;}
 .fpay .btn{width:30%;height:48px;line-height:48px;background:#ff7e00;text-align:center;float:right;font-weight:700;color:#fff;text-indent:0;}
 .fltdetail .ofont span{color:#797979;padding-right:20px;}
@@ -363,9 +363,17 @@ i{font-style:normal;font-weight:normal;}
 .delivy .light.current{background-color:#fff;}
 .delivy .light:active:after,
 .delivy .light.current:after{display:none;}
-.cui_cld_day_havetxt em, .cui_cld_nopro em, .cui_cld_haspro em, .cui_cld_daycrt em{font-size: 13px;color: rgba(0,0,0,0.8);}
-.cui_cld_day_havetxt i, .cui_cld_nopro i, .cui_cld_haspro i, .cui_cld_daycrt i{font-size:12px;color: rgba(0,0,0,0.6);}
+.cui_cld_day_havetxt em,
+.cui_cld_nopro em,
+.cui_cld_haspro em,
+.cui_cld_daycrt em{font-size:13px;color:rgba(0,0,0,0.8);}
+.cui_cld_day_havetxt i,
+.cui_cld_nopro i,
+.cui_cld_haspro i,
+.cui_cld_daycrt i{font-size:12px;color:rgba(0,0,0,0.6);}
 .flight-hyb_cancel span{padding:7px 10px;}
+.tab_by{display:table\9;}
+.tab_by li{display:table-cell\9;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .mt0{margin-top:0;}
@@ -525,8 +533,8 @@ i{font-style:normal;font-weight:normal;}
 /* E 机票公共样式 */
 /* S 机票列表页优化 */
 .flight-menubar{margin:48px 0 0 0;}
-.flight-listdate{width:100%;border-bottom:1px solid #ddd;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;}
-.flight-listdate li{position:relative;padding-top:5px;vertical-align:middle;text-align:center;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;text-align:center;height:44px;color:#666;font-size:14px;}
+.flight-listdate{width:100%;border-bottom:1px solid #ddd;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
+.flight-listdate li{position:relative;padding-top:5px;vertical-align:middle;text-align:center;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;text-align:center;height:44px;color:#666;font-size:14px;display:table-cell\9;}
 .flight-listdate li .date{color:#099fde;font-weight:bold;}
 .flight-listdate li .price{color:#666;font:bold 1.14em/1 Arial;}
 .flight-listdate li .price dfn{color:#666;font-weight:bold;}
