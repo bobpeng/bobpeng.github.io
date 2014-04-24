@@ -373,7 +373,7 @@ i{font-style:normal;font-weight:normal;}
 .cui_cld_daycrt i{font-size:12px;color:rgba(0,0,0,0.6);}
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
-.tab_by li{display:table-cell\9;}
+.tab_by li{display:table-cell\9;width: 33%;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .mt0{margin-top:0;}
