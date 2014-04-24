@@ -87,81 +87,22 @@
 
                 </ul>
             </div>
-            <div id="addPassenger">
-
-                <ul class="b_people fbgf compd2 peo_info flights_top_none">
-                    <li class="flights_preson preson_mr2 clear-input-box">
-                        <label>英文姓名</label>
-                        <input class="txts js_ename" maxlength="29" type="text" placeholder="请填写登机人姓名" value="">
-                        <a class="clear-input " href="javascript:;" style="top: 15px; bottom: auto; display: none;">
-                            <span></span>
-                        </a>
-                        <i class="i flights_wenh" id="js_flights_wenh"></i>
-                    </li>
-                    <li class="flights_preson clear-input-box">
-                        <select id="sel_idCard" name="select-choice-1" style="display: none;">
-
-                            <option selected="" value="2" data-no="">护照</option>
-
-                            <option value="10" data-no="">港澳通行证</option>
-
-                            <option value="8" data-no="">台胞证</option>
-
-                            <option value="7" data-no="">回乡证</option>
-
-                            <option value="22" data-no="">台湾通行证</option>
-
-                            <option value="11" data-no="">国际海员证</option>
-
-                        </select>
-                        <label id="js_blk_noidCard" class="fcblue ellips">
-                            <span class="scrollRadioList_title">护照</span><i class="newarr_r"></i>
-                        </label>
-                        <input class="js_no" type="text" placeholder="请填写证件号码" data-index="0" value="">
-                        <a class="clear-input " href="javascript:;" style="top: 15px; bottom: auto; display: none;">
-                            <span></span>
-                        </a>
-                    </li>
-                    <li class="flights_preson preson_mr2 pos_rel flights_libg" id="js_citizenship">
-                        <label>国籍</label>
-                        <span class="fcblue flights_area">中国大陆</span><i class="newarr_r"></i>
-                    </li>
-                    <li class="flights_preson preson_mr2 flights_libg">
-                        <label>性别</label>
-                        <span class="flights_gender js_sex">
-                            <i class="s_on current">男</i><i class="s_off s_woman false">女</i>
-                        </span>
-                    </li>
-                    <li class="flights_preson preson_mr2 clear-input-box">
-                        <label>出生日期</label>
-                        <input class="js_birth" maxlength="8" type="tel" placeholder="格式：19851223" value="">
-                        <a class="clear-input " href="javascript:;" style="top: 15px; bottom: auto; display: none;">
-                            <span></span>
-                        </a>
-                    </li>
-                    <li class="fcblue" id="js_addPass_btn">
-                        <label><i class="add_ico">&nbsp;</i>&nbsp;添加更多登机人</label>
-                    </li>
-                </ul>
-
-
-
-            </div>
-        </section>
+    </div>
+    </section>
     </div>
     <!--E H5机票_订单填写_国际-->
 </body>
 <script>
-    var showBox = document.getElementById("test");
-    showBox.onclick = function(){
-        var className = this.className;
-        if(className.indexOf("flight-tips-etp2-close")<0){
-            this.className += " flight-tips-etp2-close";
-        }else{
-            this.className = className.replace("flight-tips-etp2-close","");
-        }
-        console.log(123)
-    };
+var showBox = document.getElementById("test");
+showBox.onclick = function() {
+    var className = this.className;
+    if (className.indexOf("flight-tips-etp2-close") < 0) {
+        this.className += " flight-tips-etp2-close";
+    } else {
+        this.className = className.replace("flight-tips-etp2-close", "");
+    }
+    console.log(123)
+};
 </script>
 
 </html>
