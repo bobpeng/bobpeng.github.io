@@ -671,7 +671,7 @@ i{font-style:normal;font-weight:normal;}
 .fdelete{background:none;width:34px;position:relative;}
 .fdelete:before{content:'';position:absolute;width:22px;height:22px;left:0;top:50%;margin-top:-11px;background:#ff3c30;border-radius:50%;}
 .fdelete:after{content:'';position:absolute;width:14px;height:2px;left:50%;top:50%;margin-left:-13px;margin-top:-1px;background:#fff;}
-.flight .b_people .info_list li{border:1px solid #bcbcbc;border-top:none;}
+.flight .b_people .info_list li{width:auto;border:1px solid #bcbcbc;border-top:none;}
 /* **
 ** E 国际机票 */
 /* !
