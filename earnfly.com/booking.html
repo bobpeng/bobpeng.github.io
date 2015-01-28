@@ -1,0 +1,721 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>汇飞网-预订页</title>
+    <meta name="keywords" content="汇飞网,机票" />
+    <meta name="description" content="汇飞网......" />
+    <link rel="stylesheet" href="static/css/global.css" />
+    <link rel="stylesheet" href="static/css/booking.css" />
+    <link rel="stylesheet" href="static/css/airlineslogo.css" />
+    <script src="static/js/jquery.min.js?v1.9.0" type="text/javascript"></script>
+    <script src="static/js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="site-top">
+        <div class="w1000">
+            <div class="f-r">
+                <span>
+                    <a href="javascript:;">登录</a>&nbsp;
+                    <em>|</em>&nbsp;<a href="javascript:;">注册</a>
+                </span>
+                <span class="site-top-tel">
+                    <img src="static/img/tel.png">
+                </span>
+                <span class="site-top-lang">
+                    <a href="javascript:;">中文版</a>
+                </span>
+            </div>
+            <div class="site-top-my">
+                <div class="site-top-mytitle">
+                    <a href="javascript:;">我的汇飞</a>
+                </div>
+                <ul class="site-top-mymenu">
+                    <li class="l1"><a href="javascript:;">我的订单</a></li>
+                    <li class="l2"><a href="javascript:;">我的虚拟币</a></li>
+                    <li class="l3"><a href="javascript:;">我的积分</a></li>
+                    <li class="l4"><a href="javascript:;">我的里程</a></li>
+                    <li class="l5"><a href="javascript:;">我的信息</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 主导航 -->
+    <div class="site-nav">
+        <div class="w1000">
+            <div>
+                <a href="javascript:;">
+                    <img src="static/img/logo.png">
+                </a>
+            </div>
+            <ul>
+                <li class="l1">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>机票预定
+                    </a>
+                </li>
+                <li class="l2">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>酒店
+                    </a>
+                </li>
+                <li class="l3">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>精彩目的地
+                    </a>
+                </li>
+                <li class="l4">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>自助服务
+                    </a>
+                </li>
+                <li class="l5">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>特价定制
+                    </a>
+                </li>
+                <li class="l6">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>网上商城
+                    </a>
+                </li>
+                <li class="l7">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>业内快讯
+                    </a>
+                </li>
+                <li class="l8">
+                    <a href="javascript:;">
+                        <span>
+                            <i></i>
+                        </span>
+                        <br>汇飞人
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 预定页 -->
+    <div class="booking cf">
+        <div class="w1000">
+            <div class="booking-left">
+                <div class="booking-search">
+                    <!-- 搜索面板 -->
+                    <div class="booking-searchpanel">
+                        <div class="srhpanel-tab">
+                            <label>
+                                <input class="input-radio" type="radio" checked="checked"><i></i>单程
+                            </label>
+                            <label>
+                                <input class="input-radio" type="radio"><i></i>往返
+                            </label>
+                        </div>
+                        <div class="srhpanel-list">
+                            <dl>
+                                <dt>出发</dt>
+                                <dd>
+                                    <span><input><i class="icon-go"></i></span>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>到达</dt>
+                                <dd>
+                                    <span><input><i class="icon-back"></i></span>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>出发日期</dt>
+                                <dd>
+                                    <input><i class="icon-cdl"></i>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>到达日期</dt>
+                                <dd>
+                                    <input><i class="icon-cdl"></i>
+                                </dd>
+                            </dl>
+                            <div class="srhpanel-submit">
+                                <input type="button">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-left-tuijian">
+                    <a href="javascript:;">
+                        <img src="static/img/ynkx.jpg"><span>悉尼景点无限制通票(2日/3日/7日)</span>
+                    </a>
+                </div>
+            </div>
+            <div class="booking-right">
+                <div class="booking-right-top">
+                    <span>北京 → 上海虹桥 (单程) 共 44 个航班信息</span>
+                    <i class="icon-para"></i>
+                    <div class="booking-right-topfilter">
+                        <span class="filter-label">舱位等级</span>
+                        <div class="filter-seclect">
+                            <div class="filter-result">超级经济舱</div>
+                            <ul>
+                                <li>经济舱</li>
+                                <li>超级经济舱</li>
+                                <li>头等舱</li>
+                                <li>公务舱</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-list-loading">
+                    <p class="booking-list-loadingimg"><img src="static/img/loading.gif" /></p>
+                    <p>正在为您实时搜索，请耐心等待</p>
+                </div>
+                <div class="booking-list-yxqc">
+                    <div class="booking-list-yxqchd"><span>已选航班信息 - 去程</span><a href="javascript:;" class="booking-list-yxqcbtn"><i class="icon-editpen"></i>修改航班</a></div>
+                    <div class="booking-list-yxqcbd">
+                        <div class="c1">上海-北京</div>
+                        <div class="c2">
+                            <p>2014-7-20</p>
+                            <p>星期五</p>
+                        </div>
+                        <div class="c3">
+                            <p><strong>06:40</strong>  首都机场</p>
+                            <p><strong>23:78</strong>  虹桥机场</p>
+                        </div>
+                        <div class="c4">
+                            <p>中国南方航空公司</p>
+                            <p>
+                                计划机型：325
+                            </p>
+                        </div>
+                        <div class="c5">
+                            <p><span class="clr-e82100">&yen;450</span> 经济舱</p>
+                            <p>机建/燃油  ¥50 / ¥40</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="booking-list">
+                    <li>
+                        <div class="booking-list-header cf">
+                            <div class="c1">
+                                <i class="airlineslogo airlineslogo-MU"></i>
+                            </div>
+                            <div class="c2">
+                                <p class="booking-list-header-hs">中国航空 CA1858</p>
+                                <p>计划机型：325(中)</p>
+                            </div>
+                            <div class="c3">
+                                <p class="booking-list-header-time">7:55</p>
+                                <p>虹桥国际机场</p>
+                            </div>
+                            <div class="c4"><i class="booking-list-icondire"></i></div>
+                            <div class="c5">
+                                <p class="booking-list-header-time">10:10</p>
+                                <p>首都国际机场</p>
+                            </div>
+                            <div class="c6"><p>机建+燃油</p><p>¥50 + ¥40</p></div>
+                            <div class="c7"><span class="booking-list-header-price"><dfn>&yen;</dfn>655</span>起</div>
+                        </div>
+                        <ul class="booking-list-classinfo booking-list-classinfoclose">
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="booking-list-foldtips">
+                            <span class="booking-list-fxsc">飞行时长：02小时20分</span>
+                            最高直返<span class="clr-0392d4">74</span>元
+                        </div>
+                        <div class="booking-list-fold">更多舱位<i></i></div>
+                    </li>
+                    <li>
+                        <div class="booking-list-header cf">
+                            <div class="c1">
+                                <i class="airlineslogo airlineslogo-MU"></i>
+                            </div>
+                            <div class="c2">
+                                <p class="booking-list-header-hs">中国航空 CA1858</p>
+                                <p>计划机型：325(中)</p>
+                            </div>
+                            <div class="c3">
+                                <p class="booking-list-header-time">7:55</p>
+                                <p>虹桥国际机场</p>
+                            </div>
+                            <div class="c4"><i class="booking-list-icondire"></i></div>
+                            <div class="c5">
+                                <p class="booking-list-header-time">10:10</p>
+                                <p>首都国际机场</p>
+                            </div>
+                            <div class="c6"><p>机建+燃油</p><p>¥50 + ¥40</p></div>
+                            <div class="c7"><span class="booking-list-header-price"><dfn>&yen;</dfn>655</span>起</div>
+                        </div>
+                        <ul class="booking-list-classinfo">
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="booking-list-foldtips">
+                            <span class="booking-list-fxsc">飞行时长：02小时20分</span>
+                            最高直返<span class="clr-0392d4">74</span>元
+                        </div>
+                        <div class="booking-list-fold booking-list-foldoff">收起<i></i></div>
+                    </li>
+                    <li>
+                        <div class="booking-list-header cf">
+                            <div class="c1">
+                                <i class="airlineslogo airlineslogo-MU"></i>
+                            </div>
+                            <div class="c2">
+                                <p class="booking-list-header-hs">中国航空 CA1858</p>
+                                <p>计划机型：325(中)</p>
+                            </div>
+                            <div class="c3">
+                                <p class="booking-list-header-time">7:55</p>
+                                <p>虹桥国际机场</p>
+                            </div>
+                            <div class="c4"><i class="booking-list-icondire"></i></div>
+                            <div class="c5">
+                                <p class="booking-list-header-time">10:10</p>
+                                <p>首都国际机场</p>
+                            </div>
+                            <div class="c6"><p>机建+燃油</p><p>¥50 + ¥40</p></div>
+                            <div class="c7"><span class="booking-list-header-price"><dfn>&yen;</dfn>655</span>起</div>
+                        </div>
+                        <ul class="booking-list-classinfo">
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="c1">
+                                    <p>经济舱</p>
+                                    <p>6.0折</p>
+                                </div>
+                                <div class="c2">
+                                    <p>剩余座位</p>
+                                    <p>≥9</p>
+                                </div>
+                                <div class="c3">
+                                    <p>票面价</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>678</span></p>
+                                </div>
+                                <div class="c4">
+                                    <p>直返</p>
+                                    <p><span class="booking-list-classinfo-price1"><dfn>&yen;</dfn>13</span></p>
+                                </div>
+                                <div class="c5">
+                                    <p>结算价</p>
+                                    <p><span class="booking-list-classinfo-price"><dfn>&yen;</dfn>655</span></p>
+                                </div>
+                                <div class="c6">
+                                    <p>可积里程</p>
+                                    <p>2000公里</p>
+                                </div>
+                                <div class="c7">
+                                    <p class="booking-list-classinfo-smt"><input type="button" value="预订"></p>
+                                    <div class="booking-list-classinfo-tgqlink">
+                                        <a href="javascript:;">退改说明</a>
+                                        <div class="booking-list-classinfo-tgqcnt">
+                                            <i class="booking-list-classinfo-tgqthr"><em></em></i>
+                                            <p>退改签信息</p>
+                                            <p>请按实际文字填写</p>
+                                            <p>大小可根据文字量调整</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="booking-list-foldtips">
+                            <span class="booking-list-fxsc">飞行时长：02小时20分</span>
+                            最高直返<span class="clr-0392d4">74</span>元
+                        </div>
+                        <div class="booking-list-fold">更多舱位<i></i></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 版权信息 -->
+    <div class="site-copyright">
+        <div class="w1000">
+            <div class="site-nav-bt">
+                <a href="javascript:;">关于我们</a><span>|</span><a href="javascript:;">招贤纳士</a><span>|</span><a href="javascript:;">反馈意见</a><span>|</span><a href="javascript:;">联系我们</a><span>|</span><a href="javascript:;">机票预订</a><span>|</span><a href="javascript:;">声明网站</a><span>|</span><a href="javascript:;">地图帮助</a><span>|</span><a href="javascript:;">中心网站</a><span>|</span><a href="javascript:;">博客</a>
+            </div>
+            <div class="site-trus">
+                <a href="javascript:;">
+                    <img src="static/img/cp1.jpg">
+                </a>
+                <a href="javascript:;">
+                    <img src="static/img/cp1.jpg">
+                </a>
+            </div>
+            <div class="site-copyinfo">
+                <p>by www.earnfly.com&nbsp;&nbsp;&nbsp;&nbsp;2012-2015. All Rights Reserved.</p>
+                <p>
+                    <a href="javascript:;">京ICP证130062号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;">京公网安备11010502023461号</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 友情链接 -->
+    <div class="site-links">
+        <div class="w1000">
+            友情链接：<a href="javascript:;">用车服务</a><a href="javascript:;">乐程旅行网</a><a href="javascript:;">旅游国际</a><a href="javascript:;">机票查询</a><a href="javascript:;">洛阳出境游</a><a href="javascript:;">贵州旅行社</a><a href="javascript:;">印象武隆</a><a href="javascript:;">西部游社区</a><a href="javascript:;">旅游景点大全</a><a href="javascript:;">机票代理</a><a href="javascript:;">香港旅游攻略</a><a href="javascript:;">大连旅游售票点</a><a href="javascript:;">摩铁时代</a><a href="javascript:;">云南旅游</a><a href="javascript:;">保众网</a><a href="javascript:;">博客俱乐部</a><a href="javascript:;">国际机票</a>
+        </div>
+    </div>
+</body>
+
+</html>

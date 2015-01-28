@@ -1,0 +1,834 @@
+.order-step {
+    height: 100px;
+    background: #546a78 url(../img/bg-order-banner.png) no-repeat center top;
+}
+
+.order-steps {
+    padding-top: 45px;
+}
+
+    .order-steps span {
+        display: inline-block;
+        width: 144px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 14px;
+        color: #fff;
+        background: url(../img/bg-order-steps.png) no-repeat;
+    }
+
+        .order-steps span em {
+            display: inline-block;
+            width: 40px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+
+        .order-steps span.current {
+            background-position: 0 -28px;
+        }
+
+        .order-steps span:last-child {
+            background-position: 0 -56px;
+        }
+
+            .order-steps span:last-child.current {
+                background-position: 0 -84px;
+            }
+
+.order {
+    background: #ececec;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+    .order input[type=radio], .order input[type=checkbox] {
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+.order-left {
+    float: left;
+    width: 560px;
+    margin-right: 40px;
+}
+
+.order-left-formtitle {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px 0 16px;
+    background: #2a3b45;
+    font-size: 14px;
+    color: #fff;
+}
+
+.order-left-formbody {
+    padding: 5px 20px 20px 16px;
+    border: 1px solid #d6d6d6;
+    border-top: none;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.order-left-psslect {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+    .order-left-psslect li {
+        float: left;
+        height: 24px;
+        line-height: 24px;
+        margin-right: 20px;
+    }
+
+.order-left-psfillin {
+    background: #f7f7f7;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 16px;
+}
+
+    .order-left-psfillin dt {
+        padding-left: 10px;
+        color: #0392d4;
+        height: 34px;
+        line-height: 34px;
+        border-bottom: 1px dotted #cdcdcd;
+    }
+
+        .order-left-psfillin dt .reset {
+            color: #fff;
+            background: #2a3b45;
+            margin-left: 10px;
+            display: inline-block;
+            width: 48px;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+    .order-left-psfillin dd {
+        padding: 0 10px 10px;
+    }
+
+.order-form-labelinput li {
+    position: relative;
+    padding-left: 68px;
+    padding-top: 10px;
+}
+
+    .order-form-labelinput li .icon-question {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../img/icon.png) no-repeat -170px -70px;
+        margin-left: 5px;
+        vertical-align: middle;
+        margin-bottom: 3px;
+    }
+
+    .order-form-labelinput li > label {
+        position: absolute;
+        left: 0;
+        top: 13px;
+        width: 68px;
+        color: #666;
+    }
+
+    .order-form-labelinput li input {
+        height: 22px;
+        border: 1px solid #c0c0c0;
+        border-radius: 3px;
+    }
+
+        .order-form-labelinput li input[type=radio], .order-form-labelinput li input[type=checkbox] {
+            height: auto;
+        }
+
+    .order-form-labelinput li.order-form-cklx > label {
+        top: 10px;
+    }
+
+    .order-form-labelinput li.order-form-cklx > div > label {
+        margin-right: 20px;
+    }
+
+.order-btn-addps {
+    margin-top: 18px;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #0392d4;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.order-form-labelinput li .tips-info {
+    margin-top: 5px;
+}
+
+.order-bxcheck p {
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order-submit {
+    margin: 30px 0;
+    height: 36px;
+    position: relative;
+}
+
+.order-btn-submit {
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #0392d4;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.order-btn-resrh {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 1;
+    color: #666;
+}
+
+.order-right {
+    float: left;
+    width: 400px;
+}
+
+.order-right-flightinfo {
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 30px;
+}
+
+.order-right-flightinfo-date {
+    padding: 20px 20px 10px 20px;
+    color: #666;
+    line-height: 30px;
+}
+
+    .order-right-flightinfo-date .p1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .order-right-flightinfo-date .tgq {
+        text-decoration: underline;
+        color: #999;
+        float: right;
+    }
+
+.order-right-flightinfo-time {
+    height: 60px;
+    background: #f7f7f7;
+    padding-top: 10px;
+    color: #aaa;
+}
+
+    .order-right-flightinfo-time .c1 {
+        float: left;
+        width: 180px;
+        text-align: right;
+    }
+
+    .order-right-flightinfo-time .c2 {
+        float: left;
+        width: 40px;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+
+    .order-right-flightinfo-time .icondire {
+        display: inline-block;
+        width: 22px;
+        height: 5px;
+        background: #e1e1e1;
+        position: relative;
+    }
+
+        .order-right-flightinfo-time .icondire:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: -4px;
+            right: -7px;
+            border-style: solid;
+            border-width: 7px 0 6px 7px;
+            border-color: transparent transparent transparent #e1e1e1;
+        }
+
+    .order-right-flightinfo-time .c3 {
+        float: left;
+    }
+
+    .order-right-flightinfo-time .time {
+        font-size: 20px;
+        font-weight: bold;
+        color: #4a4949;
+    }
+
+.order-right-flightinfo-price {
+    padding: 20px 20px 10px 20px;
+    color: #aaa;
+}
+
+    .order-right-flightinfo-price dfn {
+        font-size: 14px;
+    }
+
+    .order-right-flightinfo-price .price {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .order-right-flightinfo-price .etp {
+        color: #aaa;
+        text-decoration: underline;
+    }
+
+    .order-right-flightinfo-price .btn-resrh {
+        width: 130px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin: 10px auto 0;
+        background: #0392d4;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+.order-right-pricedetail {
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    color: #666;
+}
+
+.order-right-pricedetailhd {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+    .order-right-pricedetailhd .price {
+        font-size: 18px;
+    }
+
+.order-right-pricedetailbd {
+    padding: 10px 20px;
+}
+
+    .order-right-pricedetailbd .tips {
+        color: #aaa;
+        text-align: right;
+        margin-bottom: 5px;
+    }
+
+    .order-right-pricedetailbd li {
+        height: 24px;
+        line-height: 24px;
+        position: relative;
+    }
+
+        .order-right-pricedetailbd li:before {
+            content: '';
+            position: absolute;
+            top: 11px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            border-top: 1px dotted #d6d6d6;
+        }
+
+        .order-right-pricedetailbd li span {
+            float: left;
+            background: #fff;
+            position: relative;
+            padding-right: 5px;
+        }
+
+            .order-right-pricedetailbd li span.price {
+                float: right;
+                background: #fff;
+                padding-right: 0;
+                padding-left: 5px;
+            }
+
+.slidebar {
+    position: fixed;
+    right: 0;
+    top: 400px;
+    width: 58px;
+    height: 182px;
+    text-align: center;
+    color: #fff;
+}
+
+    .slidebar > div {
+        background: #0392d4;
+        line-height: 14px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .slidebar .s1 {
+        border-radius: 10px 0 0 0;
+        height: 25px;
+        padding-top: 35px;
+    }
+
+    .slidebar .s2 {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        height: 40px;
+        padding-top: 20px;
+    }
+
+    .slidebar .s3 {
+        border-radius: 0 0 0 10px;
+        height: 48px;
+        padding-top: 12px;
+    }
+
+        .slidebar .s1:before, .slidebar .s3:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 11px;
+            top: 13px;
+            left: 18px;
+            background: url(../img/icon.png) no-repeat -220px -30px;
+        }
+
+        .slidebar .s3:before {
+            top: 36px;
+            background: url(../img/icon.png) no-repeat -220px -45px;
+        }
+/*order-check*/
+.order-ckbox .order-left-formbody {
+    padding: 10px 20px 20px;
+}
+
+    .order-ckbox .order-left-formbody dl {
+        margin-top: 10px;
+    }
+
+        .order-ckbox .order-left-formbody dl dt {
+            float: left;
+            width: 80px;
+            line-height: 28px;
+            color: #666;
+            overflow: hidden;
+            clear: left;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .order-ckbox .order-left-formbody dl dd {
+            line-height: 28px;
+            margin-left: 100px;
+        }
+
+            .order-ckbox .order-left-formbody dl dd .name {
+                font-size: 18px;
+            }
+
+                .order-ckbox .order-left-formbody dl dd .name i {
+                    font-size: 14px;
+                }
+
+.order-ckbox .psinfo dl {
+    background: #f7f7f7;
+    padding: 10px 0;
+}
+
+.flight-insurance {
+    background-color: #eff6fc;
+    width: 100%;
+}
+
+    .flight-insurance td {
+        text-align: center;
+        padding: 10px 0;
+        border-left: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2;
+        background-color: #f7f7f7;
+    }
+
+    .flight-insurance thead tr td {
+        border-left: 1px solid #e2e2e2;
+        background-color: #e2e2e2;
+    }
+
+        .flight-insurance thead tr td:last-child {
+            border-right: 1px solid #e2e2e2;
+        }
+
+    .flight-insurance tbody tr td:last-child {
+        border-right: 1px solid #e2e2e2;
+    }
+/*Ö§¸¶*/
+.pay-fltinfo {
+    height: 88px;
+    border: 1px solid #d6d6d6;
+    background: #fff url(../img/icon-flt1-bg.png) no-repeat 800px 20px;
+    color: #666;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.pay-fltinfo-je {
+    float: left;
+    width: 180px;
+    height: 63px;
+    line-height: 1.2;
+    padding-top: 25px;
+    background: #f7f7f7;
+    border-right: 1px solid #d6d6d6;
+    text-align: center;
+    font-size: 12px;
+}
+
+    .pay-fltinfo-je .price {
+        font-size: 26px;
+        color: #e00;
+        font-weight: bold;
+    }
+
+        .pay-fltinfo-je .price dfn {
+            font-size: 18px;
+        }
+
+.pay-fltinfo-city {
+    float: left;
+    padding: 33px 0 0 40px;
+    width: 280px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .pay-fltinfo-city i.icon-flt1 {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../img/icon.png) no-repeat -230px -70px;
+        vertical-align: -2px;
+        margin-right: 3px;
+    }
+
+.pay-fltinfo-airport {
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+    .pay-fltinfo-airport .icon-build {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url(../img/icon.png) no-repeat -250px -70px;
+        vertical-align: -3px;
+        margin-right: 3px;
+    }
+
+    .pay-fltinfo-airport .icon-date {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url(../img/icon.png) no-repeat -270px -70px;
+        vertical-align: -3px;
+        margin-right: 3px;
+    }
+
+.pay-methods {
+    margin-top: 45px;
+    padding: 20px 25px;
+    background: #fff;
+    color: #666;
+}
+
+.pay-methods-hd {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .pay-methods-hd .price {
+        color: #e00;
+        font-size: 18px;
+    }
+
+        .pay-methods-hd .price dfn {
+            font-size: 14px;
+        }
+
+.pay-methods-cnt {
+    position: relative;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.pay-methods-tab {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 948px;
+    height: 44px;
+}
+
+    .pay-methods-tab li {
+        float: left;
+        margin-right: 8px;
+        width: 180px;
+        height: 43px;
+        line-height: 43px;
+        text-align: center;
+        background: #f7f7f7;
+        border: 1px solid #d6d6d6;
+        border-bottom: none;
+        font-size: 14px;
+        color: #929292;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .pay-methods-tab li.current {
+            z-index: 2;
+            height: 44px;
+            color: #0392d4;
+            background: #fff;
+            border-color: #0392d4;
+        }
+
+.pay-methods-cntbox {
+    position: absolute;
+    width: 948px;
+    height: 150px;
+    top: 44px;
+    left: 0;
+    border: 1px solid #0392d4;
+}
+
+    .pay-methods-cntbox ul {
+        padding: 5px 0 30px 30px;
+    }
+
+    .pay-methods-cntbox li .morelink {
+        display: inline-block;
+        vertical-align: middle;
+        color: #0392d4;
+        margin-top: 10px;
+    }
+/* paylist */
+.paylist {
+    overflow: hidden;
+    *zoom: 1;
+}
+
+    .paylist li {
+        float: left;
+        padding: 20px 70px 0 0;
+    }
+
+    .paylist.five li {
+        padding: 15px 10px 15px 0;
+    }
+
+    .paylist li input {
+        float: left;
+        width: 13px;
+        height: 13px;
+        margin: 15px 5px 0 0;
+        cursor: pointer;
+    }
+
+    .paylist li label {
+        float: left;
+        width: 128px;
+        height: 40px;
+        cursor: pointer;
+        border: 1px solid #DDD;
+        background-color: #FFF;
+    }
+
+        .paylist li label:hover {
+            border-color: #FFA200;
+        }
+
+    .paylist li input:hover + label {
+        border-color: #FFA200;
+    }
+
+    .paylist .selected label {
+        border-color: #FFA200;
+    }
+
+/* un_card */
+.creditcard_cmb, .creditcard_ccb, .creditcard_icbc, .creditcard_boc, .creditcard_comm, .creditcard_gdb, .creditcard_citic, .creditcard_spdb, .creditcard_abc, .creditcard_bjbank, .creditcard_cebbank, .creditcard_cmbc, .creditcard_shbank, .creditcard_cib, .creditcard_spabank, .creditcard_sdb, .creditcard_hxb, .creditcard_nbbank, .creditcard_hkbea, .creditcard_jsb, .creditcard_psbc, .creditcard_ceb,
+.creditcard_jcb, .creditcard_americanexpress, .creditcard_visa, .creditcard_mastercard, .creditcard_DinersClub, .creditcard_unionpay,
+.more_unionpay, .more_alipay, .more_tenpay, .more_paypal, .more_chinapay, .more_alipayscan {
+    background-image: url(../img/un-card.png);
+    background-repeat: no-repeat;
+}
+/* creditcard */
+.creditcard_ccb {
+    background-position: 0 -43px;
+}
+
+.creditcard_cmb {
+    background-position: 0 6px;
+}
+
+.creditcard_icbc {
+    background-position: 0 -90px;
+}
+
+.creditcard_boc {
+    background-position: 0 -138px;
+}
+
+.creditcard_comm {
+    background-position: 0 -186px;
+}
+
+.creditcard_abc {
+    background-position: 0 -378px;
+}
+
+.creditcard_gdb {
+    background-position: 0 -234px;
+}
+
+.creditcard_spdb {
+    background-position: 0 -330px;
+}
+
+.creditcard_cmbc {
+    background-position: 0 -521px;
+}
+
+.creditcard_citic {
+    background-position: 0 -282px;
+}
+
+.creditcard_spabank {
+    background-position: 0 -666px;
+}
+
+.creditcard_cebbank {
+    background-position: 0 -474px;
+}
+
+.creditcard_cib {
+    background-position: 0 -618px;
+}
+
+.creditcard_shbank {
+    background-position: 0 -572px;
+}
+
+.creditcard_sdb {
+    background-position: 0 -714px;
+}
+
+.creditcard_bjbank {
+    background-position: 0 -426px;
+}
+
+.creditcard_hxb {
+    background-position: 0 -762px;
+}
+
+.creditcard_jsb {
+    background-position: 0 -1679px;
+}
+
+.creditcard_psbc {
+    background-position: 0 -1632px;
+}
+
+.creditcard_nbbank {
+    background-position: 0 -811px;
+}
+
+.creditcard_hkbea {
+    background-position: 0 -857px;
+}
+
+.creditcard_visa {
+    background-position: 0 -1151px;
+}
+
+.creditcard_mastercard {
+    background-position: 0 -1199px;
+}
+
+.creditcard_jcb {
+    background-position: 0 -1054px;
+}
+
+.creditcard_americanexpress {
+    background-position: 3px -1103px;
+}
+
+.creditcard_DinersClub {
+    background-position: 0 -1248px;
+}
+
+.creditcard_unionpay {
+    background-position: 0 -1295px;
+}
+/* more */
+.more_unionpay {
+    background-position: 0 -1295px;
+}
+
+.more_alipay {
+    background-position: 0 -1343px;
+}
+
+.more_tenpay {
+    background-position: 0 -1392px;
+}
+
+.more_paypal {
+    background-position: 0 -1582px;
+}
+
+.more_chinapay {
+    background-position: 0 -1726px;
+}
+
+.more_alipayscan {
+    background-position: 0 -1776px;
+}
+
+.site-mask-bd .paylist {
+    height: 270px;
+    overflow: auto;
+}
+
+    .site-mask-bd .paylist li {
+        padding: 24px 0 0 40px;
+    }
